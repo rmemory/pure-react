@@ -1,13 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './app.css';
 
-const welcome = 'Welcome to React';
+const welcome = 'Welcome to React from Big Fish';
 
 const App = () => (
 	<div className="App">
 		<header className="App-header">
-			<img src={logo} className="App-logo" alt="logo" />
 			<Welcome />
 		</header>
 		<p className="App-intro">
