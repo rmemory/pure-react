@@ -1,3 +1,4 @@
+/* eslint-disable implicit-arrow-linebreak */
 import { AppContainer } from 'react-hot-loader';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -22,4 +23,3 @@ render(App);
 if (module.hot) {
 	module.hot.accept('./components/App.jsx', () => render(App));
 }
-
